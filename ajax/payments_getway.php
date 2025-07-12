@@ -38,9 +38,9 @@ function cashfree_payment($name, $email, $phone, $link_id, $link_amount) {
             'accept' => 'application/json',
             'content-type' => 'application/json',
             'x-api-version' => '2023-08-01',
-            'x-client-id' => 'TEST101583890bdf9fb02d324bc3fa4298385101',
-            'x-client-secret' => 'cfsk_ma_test_3fcd0fff2a7b6b65d4111b1f96a7170d_cb76a5ba',
-            'x-request-id' => 'TEST101583890bdf9fb02d324bc3fa4298385101',
+            'x-client-id' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            'x-client-secret' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            'x-request-id' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         ],
     ]);
     
@@ -54,9 +54,9 @@ function cashfree_payment($name, $email, $phone, $link_id, $link_amount) {
             'headers' => [
                 'accept' => 'application/json',
                 'x-api-version' => '2023-08-01',
-                'x-client-id' => "TEST101583890bdf9fb02d324bc3fa4298385101",
-                'x-client-secret' => "cfsk_ma_test_3fcd0fff2a7b6b65d4111b1f96a7170d_cb76a5ba",
-                'x-request-id' => "TEST101583890bdf9fb02d324bc3fa4298385101",
+                'x-client-id' => "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                'x-client-secret' => "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                'x-request-id' => "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
             ],
         ]);
     
