@@ -24,20 +24,15 @@ Based on the file structure, HomeCareFix appears to include functionalities such
 
 Here are some glimpses of the HomeCareFix application in action:
 
-*A general view of the application interface.*
-<img width="529" height="396" alt="image" src="https://github.com/user-attachments/assets/b7610b5c-4f12-4864-b8ba-0d700652b6a0" />
+<img width="829" height="396" alt="image" src="https://github.com/user-attachments/assets/b7610b5c-4f12-4864-b8ba-0d700652b6a0" />
 
-*Another perspective of the user interface.*
-<img width="535" height="396" alt="image" src="https://github.com/user-attachments/assets/7fa49feb-fa12-45a6-b082-69146d04cec2" />
+<img width="835" height="396" alt="image" src="https://github.com/user-attachments/assets/7fa49feb-fa12-45a6-b082-69146d04cec2" />
 
-*Detail of a specific section for registration.*
-<img width="541" height="374" alt="image" src="https://github.com/user-attachments/assets/d6f0b2fb-a183-403c-9977-bde489511922" />
+<img width="841" height="374" alt="image" src="https://github.com/user-attachments/assets/d6f0b2fb-a183-403c-9977-bde489511922" />
 
-*An example of a page or component.*
-<img width="540" height="425" alt="image" src="https://github.com/user-attachments/assets/d0b3e44f-c6d3-4409-8ccd-5fbbbc331f6c" />
+<img width="840" height="425" alt="image" src="https://github.com/user-attachments/assets/d0b3e44f-c6d3-4409-8ccd-5fbbbc331f6c" />
 
-*Another view demonstrating the design.*
-<img width="552" height="419" alt="image" src="https://github.com/user-attachments/assets/12317ef9-8b2e-43a7-a63d-de2f01228f95" />
+<img width="852" height="419" alt="image" src="https://github.com/user-attachments/assets/12317ef9-8b2e-43a7-a63d-de2f01228f95" />
 
 ## 🚀 Technologies Used
 
