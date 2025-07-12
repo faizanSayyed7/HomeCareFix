@@ -1,0 +1,425 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #4a4a4a;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+Global Styles
+--------------------------------------------- 
+*/
+
+.section {
+  margin-top: 120px;
+}
+
+.section-heading {
+  margin-bottom: 70px;
+}
+
+.section-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 56px;
+}
+
+.section-heading h2 em {
+  font-style: normal;
+  color: #0071f8;
+}
+
+.section-heading h6 {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.icon-button a {
+  display: inline-block;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 30px 0px 0px;
+  border-radius: 25px;
+  transition: all .3s;
+}
+
+.icon-button a i {
+  background-color: #f35525;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: -1px;
+}
+
+.icon-button a:hover {
+  color: #f35525;
+}
+
+.icon-button a:hover i {
+  color: #fff;
+}
+
+/* 
+---------------------------------------------
+Menubox
+--------------------------------------------- 
+*/
+
+.menubox {
+  background-color: #ffffff;
+  padding: 15px;
+  /* Adjust the padding as needed */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  /* Make sure it doesn't overflow on smaller screens */
+  height: 50%;
+}
+
+
+/* Style for the "What are you looking for?" heading */
+.menubox h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* Adjust the font size as needed */
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+.menu-collage{
+  margin-top: 120px;
+  margin-bottom: 35px;
+}
+
+/* 
+---------------------------------------------
+Best Deal Style
+--------------------------------------------- 
+*/
+
+.best-deal {
+  background-color: #fafafa;
+  padding: 100px 0px;
+}
+
+.best-deal .tab-content img {
+  padding: 0px 45px;
+}
+
+.best-deal .tabs-content .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1e1e1e !important;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0px 25px;
+  color: #fff;
+}
+
+.best-deal .tabs-content .nav-tabs .nav-link.active {
+  background-color: #f35525 !important;
+  color: #fff;
+}
+
+.best-deal .tabs-content ul.nav-tabs {
+  border-bottom: none !important;
+  margin-bottom: 80px;
+  align-items: end;
+  justify-content: end;
+  margin-top: -130px;
+}
+
+.best-deal .tabs-content ul.nav-tabs li {
+  padding-right: 0px;
+  border-right: none;
+  margin-left: 20px;
+}
+
+.best-deal .info-table {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+}
+
+.best-deal .info-table ul li {
+  display: block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 15px;
+  color: #aaa;
+  font-weight: 400;
+}
+
+.best-deal .info-table ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.best-deal .info-table ul li span {
+  font-size: 20px;
+  color: #1e1e1e;
+  float: right;
+  font-weight: 700;
+  display: block;
+}
+
+.best-deal .tabs-content {
+  padding: 0px;
+  background-color: transparent;
+}
+
+.best-deal .tabs-content h4 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.best-deal .icon-button {
+  margin-top: 30px;
+}
+
+
+.bb:hover {
+  border: 1px solid #000000 !important;
+}
+
+.h-font {
+  font-family: 'Merienda', cursive;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-bg {
+  background-color: #2ec1ac;
+  border: 1px solid #2ec1ac;
+}
+
+.custom-bg:hover {
+  background-color: #279e8c;
+  border: 1px solid #279e8c;
+}
+
+.custom-color {
+  /* background-color: rgb(245, 92, 92); */
+  color: rgb(255, 13, 13);
+}
+
+/* 
+---------------------------------------------
+Footer Style
+--------------------------------------------- 
+*/
+
+footer {
+  margin-top: 150px;
+  background-color: #1e1e1e;
+  min-height: 100px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/* 
+---------------------------------------------
+Responsive Style
+--------------------------------------------- 
+*/
+
+body {
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 767px) {
+  .best-deal .tabs-content .nav-link {
+    font-size: 14px;
+    padding: 0px 15px;
+    height: 44px;
+    line-height: 44px;
+
+  }
+
+  .best-deal .tabs-content ul.nav-tabs li {
+    margin: 0px 5px;
+  }
+  .menu-collage {
+    margin-top: 140px;
+    /* Add margin at the top for better spacing on smaller screens */
+    padding: 21px;
+  }
+
+  .menubox{
+    padding: 38px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+
+  .logoimg{
+    width: 260px;
+    height: 42;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .best-deal .section-heading {
+    text-align: center;
+  }
+
+  .menu-collage {
+    margin-top: 150px;
+    /* Add margin at the top for better spacing on smaller screens */
+    padding: 28px;
+  }
+
+  .menubox{
+    padding: 38px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+
+  .advertising .col-md-7 {
+    display: none;
+  }
+
+  .best-deal .tabs-content ul.nav-tabs {
+    margin-top: 0px;
+    justify-content: center;
+  }
+
+  .best-deal .info-table {
+    margin-bottom: 45px;
+  }
+
+  .best-deal .tab-content img {
+    padding: 0px;
+  }
+
+  .best-deal .tabs-content h4 {
+    margin-top: 45px;
+  }
+
+  .best-deal .info-table ul li span {
+    float: right !important;
+    width: auto !important;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .best-deal .info-table ul li span {
+    float: none;
+    width: 100%;
+  }
+  
+  .menu-collage {
+    margin-top: 150px;
+    margin-bottom: auto;
+    padding: 35px;
+  }
+
+  .crd{
+    padding: 6px;
+  }
+}

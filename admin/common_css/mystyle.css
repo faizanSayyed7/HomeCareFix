@@ -1,0 +1,24 @@
+.custom-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 999;
+}
+
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+}
+
+@media screen and (max-width: 991px){
+    #dashboard-menu{
+        position: fixed;
+        height: auto;
+        width: 100%;
+    }
+
+    #main-content{
+        margin-top: 60px;
+    }
+}
